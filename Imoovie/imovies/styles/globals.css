@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 1024px) {
+    .about {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  form {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+    border-color: #e5e6e9;
+    font-family: Open Sans;
+    border-width: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  img {
+    margin-right: 200px;
+  }
+
+  .centre {
+    text-align: center;
+    padding: 10px;
+  }
+
+  form div + div {
+    margin-top: 1em;
+  }
+
+  .head {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  h2 {
+    font-family: Open Sans;
+  }
+
+  h3 {
+    color: #999b9b;
+  }
+
+  input,
+  textarea {
+    font: 1em sans-serif;
+    border-radius: 1em;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: #f2f3f7;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Open Sans;
+    padding-left: 20px;
+  }
+
+  input:hover {
+    border-color: #183cdf;
+    background-color: #d9dceb;
+  }
+
+  .forgotdiv {
+    text-align: right;
+    padding-right: 50px;
+  }
+
+  button {
+    margin-left: 0.5em;
+    background-color: #48cae4;
+    border-radius: 1em;
+    width: 320px;
+    margin: 0 auto;
+    height: 60px;
+    border-radius: 2em;
+    border: none;
+    font-family: Open Sans;
+  }
+
+  .btn-login {
+    color: rgb(252, 246, 246);
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .btn-google {
+    background-color: rgb(247, 243, 243);
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  footer {
+    text-align: center;
+    font-family: Open Sans;
+    margin-top: 20px;
+  }
+  .search-bar {
+    display: none;
+  }
